@@ -25,7 +25,7 @@ def switch_lons(ds, lon_name='lon'):
     ds = ds.copy()
     with dask.config.set(**{'array.slicing.split_large_chunks': True}):
         if np.any(ds.coords[lon_name] < 0): # if current coords are -180 to 180
-            ds.coords[lon_name] = (ds.coords[lon_name] + 360) % 360
+            ds.coords[lon_name] = (ds.coords[lon_name] + 180) % 360
         else:
             ds.coords[lon_name] = (ds.coords[lon_name] + 180) % 360 - 180
         return ds.sortby(ds[lon_name])
