@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "RICHARDSON"
+  given-names: "DOUG"
+  orcid: "https://orcid.org/0000-0001-5397-0201"
+title: "Codes for Richardson et al. 2022, npj Climate & Atmospheric Science"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2022-01-27
+url: "https://github.com/dougrichardson/Richardson_compound_wildfire"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Richardson"
+    given-names: "Doug"
+    orcid: "https://orcid.org/0000-0001-5397-0201"
+  - family-names: "Black"                                
+    given-names: "Amanda S."
+  - family-names: "Irving"                                
+    given-names: "Damien"
+  - family-names: "Matear"                                
+    given-names: "Richard J."
+  - family-names: "Monselesan"  
+    given-names: "Didier P."
+  - family-names: "Risbey"                                
+    given-names: "James S."
+  - family-names: "Squire"
+    given-names: "Dougal T."
+  - family-names: "Tozer"                                
+    given-names: "Carly R." 
+  journal: "npj Climate and Atmospheric Sciences"
+  title: "Global increase in wildfire potential from compound fire weather and drought"
+  year: 2022
